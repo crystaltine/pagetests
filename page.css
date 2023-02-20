@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(84deg, rgb(6, 6, 7), rgb(18, 18, 24));
+    font-family: rubik;
+    font-weight:600;
+    color:white;
+    height:5000px;
+}
+div {
+    font-family: rubik;
+    font-weight:600;
+    color:white;
+    font-size:150px;
+    text-align:center;
+}
+button {
+    font-family: rubik;
+    font-weight: 300;
+    cursor:pointer;
+}
+button:hover {
+    text-decoration: underline;
+}
+
+
+
+.header-bar {
+    padding-top:0;
+    position:fixed;
+    top:0;
+    bottom:80%;
+    left:1%;
+    right:1%;
+    align-items:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color:rgba(6, 6, 10, 0.936);
+    border-bottom:rgba(193, 213, 219, 0.246) solid 3px;
+    height:60px;
+    z-index:100;
+}
+.main-logo {
+    height:44px;
+    width:44px;
+}
+.header-button {
+    height:40px;
+    margin-top:0;
+    display:inline;
+    padding:0;
+    background-color: transparent;
+    border-style: hidden;
+    color:white;
+    font-size:25px;
+    align-items:center;
+}
+
+.main {
+    height:500px;
+    align-items:center;
+}
+.main-text {
+    margin-top:200px;
+    margin-bottom:10px;
+}
+.main-text-colored {
+    color:skyblue;
+}
+.main-buttons-container {
+    padding-top:0;
+}
+
+.gradient-bordered-button {
+    height:60px;
+    width:195px;
+    margin-right:10px;
+    margin-left:10px;
+    background-color:rgb(23, 30, 40);
+    border-image:linear-gradient(72deg, rgb(255, 0, 195), rgb(255, 0, 81), orange, yellow) 1;
+    border-width:5px;
+    color:white;
+    font-family:Montserrat;
+    font-weight:600;
+    font-size:20px;
+    transition:1s;
+}
+.gradient-bordered-button:hover {
+    background-image:linear-gradient(72deg, rgb(255, 0, 195), rgb(255, 0, 81), orange, yellow);
+}
+.button-1 {
+    width:160px;
+    height:50px;
+    font-size:18px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-left:white 2px;
+}
+.front-page-text {
+    line-height:60px;
+    font-family:Montserrat;
+    font-size:28px;
+    font-weight:400;
+}
